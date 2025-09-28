@@ -1734,7 +1734,7 @@
 
 
 // **Question#3**
-function removeVowels(sentence) {
+//function removeVowels(sentence) {
     let result = "";
     let vowels = "aeiouAEIOU";
 
@@ -1748,12 +1748,12 @@ function removeVowels(sentence) {
 }
 
 // Example usage
-let sentence = prompt("Enter a sentence (max 25 characters):");
-if (sentence.length > 25) {
-    alert("Sentence is too long! Please enter 25 characters or less.");
-} else {
+//let sentence = prompt("Enter a sentence (max 25 characters):");
+//if (sentence.length > 25) {
+    //alert("Sentence is too long! Please enter 25 characters or less.");
+} //else {
     let noVowels = removeVowels(sentence);
-    alert("Sentence without vowels: " + noVowels);
+   // alert("Sentence without vowels: " + noVowels);
 }
 
 
@@ -1787,7 +1787,7 @@ if (sentence.length > 25) {
 
 
 // **Question#5**
-function countDoubleVowels(text) {
+//function countDoubleVowels(text) {
     let count = 0;
     text = text.toLowerCase(); // convert to lowercase for simplicity
 
@@ -1811,9 +1811,9 @@ function countDoubleVowels(text) {
 }
 
 // Example usage
-let sentence = prompt("Enter a line of text:");
-let doubleVowels = countDoubleVowels(sentence);
-alert("Number of occurrences of two vowels in succession: " + doubleVowels);
+//let sentence = prompt("Enter a line of text:");
+//let doubleVowels = countDoubleVowels(sentence);
+//alert("Number of occurrences of two vowels in succession: " + doubleVowels);
 
 
 
